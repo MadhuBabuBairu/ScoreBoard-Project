@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="teams">
+                <div>
+                    <h3 class="Board-Title">HOME</h3>
+                </div>
+                <div class="home-points-text">
+                    <p class="sum" id="Home-Score">0</p>
+                </div>
+                <div class="add-points-btn-layout">
+                    <button class="btn" onclick="HSadd1()">+1</button>
+                    <button class="btn" onclick="HSadd2()">+2</button>
+                    <button class="btn" onclick="HSadd3()">+3</button>
+                </div>
+            </div>
+
+            <div class="teams">
+                <div>
+                    <h3 class="Board-Title">GUEST</h3>
+                </div>
+                <div class="home-points-text">
+                    <p class="sum" id="Guest-Score">0</p>
+                </div>
+                <div class="add-points-btn-layout">
+                    <button class="btn" onclick="GSadd1()">+1</button>
+                    <button class="btn" onclick="GSadd2()">+2</button>
+                    <button class="btn" onclick="GSadd3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="Score-Board">
+            <h4>SCORE BOARD</h4>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

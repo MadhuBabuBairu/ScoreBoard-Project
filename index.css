@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: MyCustomFont;
+    display: flex;
+    flex-direction: column; /* Ensure the body is a column layout */
+    height: 100vh; /* Make the body take the full height of the viewport */
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url("/CursedTimerUlil-Aznm.ttf");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Space the teams evenly */
+    align-items: flex-start; /* Align items at the start */
+    flex: 1; /* Allow the container to grow and take available space */
+}
+
+.Board-Title {
+    display: block;
+    width: 149px;
+    height: 36px;
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+}
+
+.home-points-text {
+    display: block;
+    border: solid #080001 3px;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+.add-points-btn-layout {
+    width: 170px;
+    height: 45px;
+    margin-top: 50px;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    color: #9AABD8;
+    font-family: MyCustomFont;
+    width: 45px;
+    height: 45px;
+    background-color: inherit;
+    border-radius: 5px;
+    border-width: 2px;
+    border: solid #9AABD8 2px;
+}
+
+.sum {
+    font-family: MyCustomFont;
+    font-weight: 400; /* Corrected from 400px to 400 */
+    font-size: 90px;
+    line-height: 126.67px;
+    color: #F94F6D;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+.Score-Board {
+    border: solid red 2px;
+    text-align: center; /* Center the text in the Score Board */
+    margin-top: 20px; /* Add some space above the Score Board */
+}
+
+.teams {
+    border: solid red 2px;
+    width: 170px;
+    display: flex; /* Ensure teams are displayed as flex items */
+    flex-direction: column; /* Stack items vertically within each team */
+    align-items: center; 
+}
